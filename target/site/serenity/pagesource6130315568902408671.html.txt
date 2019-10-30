@@ -1,0 +1,114 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" class=" supports cssfilters"><head>
+
+    <title>OrangeHRM</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <base href="/">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style>
+        .material-icons {
+            opacity: 0 !important;
+        }
+        body.material-icons-visible .material-icons {
+            opacity: 1 !important;
+        }
+    </style>
+
+    <link rel="shortcut icon" href="/webres_5d497ba1327965.99824202/themes/6x-demo-responsive/images/favicon.ico">
+
+    <!-- Library CSS files -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/webres_5d497ba1327965.99824202/css/header.min.css">
+
+    <script type="text/javascript">
+        var orangehrm = {
+            baseUrl: '/index.php'
+        };
+        window.onbeforeunload = function(event) {
+            if (window.self === window.top) {
+                if (preloaderOption && (typeof preloaderOption.pageTransition === 'undefined' || preloaderOption.pageTransition) ) {
+                    preloaderOption.On();
+                    $('#preloader').removeClass('inactive').addClass('active');
+                    preloaderOption.pageTransition = true;
+                }
+            }
+        };
+
+        window.onunload = function(event) {
+            if (window.self === window.top) {
+                if (preloaderOption) {
+                    preloaderOption.Off();
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript" src="/webres_5d497ba1327965.99824202/js/material_header.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/webres_5d497ba1327965.99824202/js/orangehrm.librarycustomizations.js"></script>
+<script type="text/javascript" src="/webres_5d497ba1327965.99824202/js/jquery/validate/messages/messages_en.js"></script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/webres_5d497ba1327965.99824202/js/html5shiv/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/client/build/styles/noncore-322f66e5a2.css">    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <script type="text/javascript">
+    var navigationLogConfig = {
+        enabled: false,
+        url: '/navigation/navigationLogNoncore'
+    }
+</script>
+<script type="text/javascript" src="/webres_5d497ba1327965.99824202/orangehrmSecurityAuthenticationPlugin/js/securityAuthenticationCommon.js"></script>
+<script type="text/javascript" src="/webres_5d497ba1327965.99824202/orangehrmNavigationTrackerPlugin/js/noncoreNavigationLogger.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/webres_5d497ba1327965.99824202/orangehrmSecurityAuthenticationPlugin/css/securityAuthenticationCommon.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/webres_5d497ba1327965.99824202/orangehrmSecurityAuthenticationPlugin/css/blockedSuccess.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/webres_5d497ba1327965.99824202/themes/6x-demo-responsive//css/sec_auth.css">
+</head>
+<body>
+
+
+
+    <style>
+        .restricted {
+            color: red !important;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        #divContent {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+    <div id="divContent">
+        <div id="divLogo">
+    <img src="/webres_5d497ba1327965.99824202/themes/6x-demo-responsive/images/login/logo.png">
+</div>        <div class="box">
+            <div class="card">
+                <div class="dashboardCard-title-for-card">Identify Your Account</div>
+                
+<script type="text/javascript">
+    $(".messageCloseButton").click(function () {
+        $("div.fadable").remove();
+    });
+
+    </script>
+                <div class="card-content">
+                    <p class="help-string"><span class="restricted">You have been restricted from accessing OrangeHRM temporarily.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <div id="footer"><div>OrangeHRM 6.5.3<br>
+        © 2005 - 2019 <a href="http://www.orangehrm.com" target="_blank">OrangeHRM, Inc</a>. All rights reserved.
+</div>
+        <ul id="social-icons" class="">
+            <li><a class="linkedIn" href="http://www.linkedin.com/groups?home=&amp;gid=891077" target="_blank"></a></li>
+            <li><a class="facebook" href="http://www.facebook.com/OrangeHRM" target="_blank"></a></li>
+            <li><a class="twitter" href="http://twitter.com/orangehrm" target="_blank"></a></li>
+            <li><a class="youtube" href="http://www.youtube.com/orangehrm" target="_blank"></a></li>
+        </ul>
+    </div>
+
+<div class="hiddendiv common"></div></body></html>

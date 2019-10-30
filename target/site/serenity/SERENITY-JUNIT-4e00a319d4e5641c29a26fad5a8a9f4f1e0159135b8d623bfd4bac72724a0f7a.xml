@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Web Automation OrangeHRM Demo" skipped="0" tests="1" time="26.73" timestamp="2019-10-23 05:13:23"><testcase name="Access the page and registered"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
+co.com.choucair.certification.orange.tasks.Registrar.performAs(Registrar.java:36)&#13;
+co.com.choucair.certification.orange.stepdefinitions.retoDosStepDefinition.heMakesTheRegistrationEntryInTheApplication(retoDosStepDefinition.java:23)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
